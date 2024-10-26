@@ -71,10 +71,17 @@ class WhatsAPIDriver(object):
 
     _LOCAL_STORAGE_FILE = "localStorage.json"
 
+    '''
+    $(".js-signin-button").click()
+    $("#login").val("yo")
+    $("#password").val("yo")
+    
+    '''
+
     _SELECTORS = {
-        "firstrun": "#wrapper",
-        "qrCode": "canvas",
-        "qrCodePlain": "div[data-ref]",
+        "firstrun": "div.modal-content",
+        "qrCode": "fit-input-inner-wrapper",
+        "qrCodePlain": "fit-input-inner-wrapper",
         "mainPage": ".app.two",
         "chatList": ".infinite-list-viewport",
         "messageList": "#main > div > div:nth-child(1) > div > div.message-list",

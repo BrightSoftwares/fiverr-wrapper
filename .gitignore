@@ -16,3 +16,4 @@ docs/_build
 *.sublime-*
 .vscode
 geckodriver.log
+__pycache__/

@@ -1,6 +1,6 @@
 
-PACKAGE_NAME = webwhatsapi
-PACKAGE_COVERAGE = webwhatsapi
+PACKAGE_NAME = fiverrapi
+PACKAGE_COVERAGE = fiverrapi
 
 help:
 	@echo "Options"
